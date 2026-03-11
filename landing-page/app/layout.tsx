@@ -3,7 +3,6 @@ import { ReactNode } from 'react';
 
 export const metadata = {
   title: 'Landing Page',
-  description: 'Converted from HTML to Next.js with TypeScript',
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

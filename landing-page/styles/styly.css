@@ -27,6 +27,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
   padding: 10px;
   color: black;
   width: 100%;
@@ -277,7 +278,7 @@ body {
   cursor: pointer;
   font-size: 18px;
   transition: all 0.3s ease;
-  width: 300px;
+  /*width: 300px;*/
 }
 
 .content {
@@ -607,7 +608,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5px;
+    gap: 25px;
   }
 
   #all {
@@ -727,13 +728,13 @@ footer {
     height: 500px;
   }
   main .titulo h1{
-    font-size: 70px;
+    font-size: 60px;
   }
   #div-frente {
     bottom: -3%;
     left: 5%;
     width: 90%;
-    border-radius: 30px;
+   border-radius: 50px 50px 0px 0px;
   }
 
   .hero_img img {
@@ -807,7 +808,7 @@ footer {
   #img-2 {
     height: auto;
     display: block;
-    border-radius: 0!important;
+    
   }
   
 
@@ -840,6 +841,9 @@ footer {
         gap: 20px;
         padding: 20px 0;
   }
+  #fundo p {
+        font-size: 12px;
+}
 
   .credits {
     justify-content: flex-start;
@@ -936,7 +940,7 @@ footer {
     width: 94%;
     height: 70%;
     background-color: #8e9c78;
-    border-radius: 10px;
+    border-radius: 15px;
     bottom: 0;
     position: absolute;
   }
